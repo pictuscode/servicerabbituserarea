@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url("../fonts/Montserrat-Regular.eot");
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#Montserrat-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url("../fonts/Montserrat-Bold.eot");
+  src: url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'MontserratLight';
+  src: url("../fonts/MontserratLight.eot");
+  src: url("../fonts/MontserratLight.eot") format("embedded-opentype"), url("../fonts/MontserratLight.woff2") format("woff2"), url("../fonts/MontserratLight.woff") format("woff"), url("../fonts/MontserratLight.ttf") format("truetype"), url("../fonts/MontserratLight.svg#MontserratLight") format("svg"); }
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url("../fonts/MontserratSemiBold.eot");
+  src: url("../fonts/MontserratSemiBold.eot") format("embedded-opentype"), url("../fonts/MontserratSemiBold.woff2") format("woff2"), url("../fonts/MontserratSemiBold.woff") format("woff"), url("../fonts/MontserratSemiBold.ttf") format("truetype"), url("../fonts/MontserratSemiBold.svg#MontserratSemiBold") format("svg"); }
+.error
+{
+	color:red !important;
+}
+#profile_tab1_edit_form 
+{
+	display:none;
+}
+.upload_btn_hidden
+{
+	display:none !important
+}
+.float_right_btn
+{
+	float:right;
+}
+.checkbox-error
+{
+	display:block;
+}
+.hourly_rate_right_price
+{
+	float:right;
+	color: #ff5a5f !important;
+	font-weight:bold !important;
+	font-size:18px !important;
+}
+.not_verified_comp
+{
+	float: right;
+    color: red;
+    padding: 13px;
+}
+.pro_avater {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    -webkit-box-shadow: 2px 1px 2px #ccc;
+    -moz-box-shadow: 2px 1px 2px #ccc;
+    box-shadow: 2px 1px 2px #ccc;
+}
+.owl-item
+{
+	cursor:pointer;
+}
+.profile_content .profile_tab .profile_tab_content .cancel_base .tab_content_content .cancel_task .cac_cel_btn_new a
+{
+	color:#fff !important;
+	margin-top: 14px !important; 
+}
+.task_request_task_completed
+{
+	color: green;
+   
+    width: 100%;
+}
+.task_request_task_pending
+{
+	color: red;
+    top: 54px;
+    position: absolute;
+    width: 100%;
+    right: 20px;
+}
+.searchbar_img
+{
+	margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.search_dropdown_box
+{
+  width:100%;
+  position:absolute;
+  z-index:999999999;
+  display:none;
+}
+.search_dropdown_box li
+{
+  width:100%;
+  list-style:none;
+  background:#fff;
+  padding:10px;
+  z-index:999999999;
+}
+.tick_check {
+    color: green;
+    font-size: 30px;
+    padding: 3px;
+}
+#calendar-pic
+{
+	display:none !important;
+}
+span.flatpickr-day.inRange {
+    background: #ff5a5f !important;
+    border-color: #ff5a5f !important;
+    color: white;
+}
+option:disabled {
+    color: #ff5a5f;
+   
+}
+a.task_accept_chat_btn {
+    color: #ff5a5f;
+}
+span.chat_cust_btn {
+    text-decoration: none;
+}
+.hide_msg_default {
+    display: none;
+}
+.message_base .message_inner_base .chat_rgt .chat_textarea input[type=submit] {
+background-position: -41px 175px;
+}
+.login_aft{
+margin-top:9px;
+}
+.login{
+margin-top:8px;
+}
+.typing-user{
+     position: absolute;
+    left: 98px;
+    font: 10px 'MontserratLight';
+    top: 7%;
+    color: #25c525;
+}
+.message_base .message_inner_base .chat_rgt .chat_msg_profile_base .chat_profile_img img {
+    width: 50px;
+    height: 50px;
+}
+.pop-up-theme_btn{
+	background-color:#ff5a5f;
+	padding:5px;
+       font: 12px 'MontserratLight';
+	 border:none;
+ color:#fff;
+}
+.chat_textarea input[type=text]{
+	font: 12px 'MontserratLight';
+}
+
+.chatpopup-img img{
+	 width:30px;
+	 height:30px;
+border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.chatpopup-user{
+	 font: 13px 'Montserrat-Regular';
+    padding-left: 10px;
+}
+.chatpop-uptyping
+{
+	font: 10px 'MontserratLight';
+    color: #fff;
+    position: absolute;
+    bottom: 2px;
+    left: 39px;
+	 
+}
+/* .message_base .message_inner_base .chat_rgt .message_converstion_list li p {
+    background: #e0e0e0;
+} */
+@media only screen and (max-width: 767px) {
+	.mobile-chat-box{
+		display:none !important;
+	}
+	a.task_accept_chat_btn {
+    display:none;
+}
+}
+@media only screen and (max-width:1133px) {
+	.task_accept_decline_btn{
+		margin-bottom:5px;
+	}
+}
+
+.rabbit-img-position {
+    width: 120px !important;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.rabbit-icon-size {
+    width: 25px !important;
+    height: 18px;
+    display: inline !important;
+    padding-right: 2px;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.grey-text {
+    color: #404852;
+    padding: 2px 0px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.featured-box-item  .review-img-position {
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    border: 2px solid #e3e3e3;
+}
+.featured-box-item {
+    display: flex;
+}
+.featured-box-item  .featured-imag {
+        padding-right: 25px;
+        min-width: 120px;
+    }
+    .c-pink {
+    color: hsl(349deg 83% 64%);
+}
+.featured-reviews-base {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.featured-reviews-base .headingblog {
+    margin-bottom: 60px;
+}
+.feature-member-base .blog_item {
+    margin: 0 1rem;
+    padding: 1.5rem 1rem;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 17%);
+    border-radius: 4px;
+    max-width: 350px;
+    min-height: 532px;
+    border: 2px solid #e3e3e3;
+}
+.d-inline{
+    display: inline-block;
+}
+.boxItemLeft{
+    min-width: 55%;
+}
+.feat-blog p {
+    text-align: left;
+    padding: 0px 25px;
+    font-weight: bold;
+}
+.feat-blog {
+    min-height: 110px;
+}
+.tasker-description p.tasker_description_info {
+    margin: 0 10px;
+}
